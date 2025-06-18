@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>주문 완료</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #ffffff;
+    }
+    header {
+      background-color: #00c400;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 700px;
+      margin: 3rem auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    .status {
+      font-size: 1.7rem;
+      margin: 2rem 0;
+    }
+    .status .success {
+      color: #00c400;
+      font-weight: bold;
+    }
+    .info-box {
+      text-align: left;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-top: 2rem;
+      line-height: 1.7;
+    }
+    .info-title {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .green {
+      color: #00c400;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>결제정보</header>
+
+  <div class="container">
+    <div class="status">
+      <span class="success">주문이 정상적으로 완료</span>되었습니다.
+    </div>
+
+    <div class="info-box">
+      <div class="info-title">주문번호</div>
+      <div class="green">12345678910</div>
+
+      <div class="info-title">배송지정보</div>
+      <div>
+        48084<br>
+        부산광역시 부산진구 개금1동<br>
+        43 712 대추정원
+      </div>
+
+      <div class="info-title">결제정보</div>
+      <div>
+        우리은행<br>
+        (주)네이버페이<br>
+        010-1234-5678
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
